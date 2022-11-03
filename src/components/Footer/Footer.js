@@ -1,4 +1,6 @@
 import React from 'react';
+import SocialIcons from "./Socialicon";
+
 // import { FontAwesomeIcon } from './FooterStyles'
 // Import hooks from React Router
 // import { useLocation, useNavigate } from 'react-router-dom';
@@ -21,10 +23,9 @@ const Footer = () => {
           </button>
         )} */}
         <h4>&copy; {new Date().getFullYear()} - Nermin Dracic</h4>
-        <div>
-          <FontAwesomeIcon icon={["fab", "github"]} size="2x" />
-          <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x" />
-        </div>
+        <div className="col-md-4 text-md-right">
+            <SocialIcons />
+          </div>
       </div>
     </footer>
   );
