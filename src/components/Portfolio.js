@@ -8,7 +8,7 @@ function Portfolio() {
             title: 'Shaken or Stirred Cocktails',
             github: 'https://github.com/NWbootcamp/ShakenorStirred_Cocktails',
             live : 'https://nwbootcamp.github.io/ShakenorStirred_Cocktails/',
-            text: 'What are you drinking tonight? Don’t know? Shaken or Stirred has you covered! The site suggests cocktails for whatever kind of evening you want to have. The site will pull random cocktails and allows the user to get a more curated choice by specifying what kind of night they want to have, or what liquor they want to use (including none!).   And if the user is under 21, it offers a fun mix of non-alcoholic drinks. Drink choice includes a photo of the drink and the drinks name, ingredients, and instructions to make it.',
+            text: 'What are you drinking tonight? The site suggests cocktails for whatever kind of evening you want to have. The site will pull random cocktails and allows the user to get a more curated choice by specifying what kind of night they want to have, or what liquor they want to use (including none!). And if the user is under 21, it offers a fun mix of non-alcoholic drinks. Drink choice includes a photo of the drink and the drinks name, ingredients, and instructions to make it.',
         },
         {
             id: '2',

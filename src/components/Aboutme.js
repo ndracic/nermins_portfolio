@@ -1,6 +1,4 @@
 import React from "react";
-import MyResume from '../assets/Resume.pdf'
-
 
 export default function Aboutme() {
     return (
@@ -10,12 +8,6 @@ export default function Aboutme() {
             <br></br>
             Recently, I've discovered my passion for web development and the joy of creating useful websites like the ones in this portfolio. I'm now seeking for a junior development role to kickstart my career and learn with professionals.
         </p>
-        <div>
-                <h3>Resume</h3>
-                <a href={MyResume} download='Nermins-Resume.pdf'>
-                    <button>Download CV</button>
-                </a>
-            </div>
       </div>
     );
   }

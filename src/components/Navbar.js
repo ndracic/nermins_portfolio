@@ -18,8 +18,8 @@ import Resume from './Resume';
 function Navbar({ currentPage, handlePageChange }) {
   return (
     <BrowserRouter>
-
-    <ul className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <nav>
+    <ul className="navbar navbar-expand-lg navbar-light" id="mainNav">
       <li className="nav-item">
         <Link
           to="resume"
@@ -71,6 +71,7 @@ function Navbar({ currentPage, handlePageChange }) {
         </Link>
       </li>
     </ul>
+    </nav>
       <Routes>
         <Route path='' element={<Homepage />} />
         <Route path='aboutme' element={<Aboutme />} />
