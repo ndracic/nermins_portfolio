@@ -1,5 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link} from 'react-router-dom'
+import Aboutme from './Aboutme';
+import Contact from './Contact';
+import Homepage from './Homepage';
+import Portfolio from './Portfolio';
+
 // import { useState } from 'react';
 // import '../styles/Navbar.css';
 
@@ -11,10 +16,12 @@ import { Link } from 'react-router-dom';
 // Non quoted values default to "pixels", e.g. height, margin, padding
 function Navbar({ currentPage, handlePageChange }) {
   return (
+    <BrowserRouter>
+
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <Link
-          to="/resume"
+          to="resume"
           onClick={() => handlePageChange('Resume')}
           // This is a conditional (ternary) operator that checks to see if the current page is "Resume"
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
@@ -25,7 +32,7 @@ function Navbar({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <Link
-          to="/aboutme"
+          to="aboutme"
           onClick={() => handlePageChange('Aboutme')}
           // Check to see if the currentPage is `Aboutme`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Aboutme' ? 'nav-link active' : 'nav-link'}
@@ -35,7 +42,7 @@ function Navbar({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <Link
-          to="/projects"
+          to="projects"
           onClick={() => handlePageChange('Projects')}
           // Check to see if the currentPage is `Projects`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
@@ -45,7 +52,7 @@ function Navbar({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <Link
-          to="/contact"
+          to="contact"
           onClick={() => handlePageChange('Contact')}
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
@@ -54,6 +61,15 @@ function Navbar({ currentPage, handlePageChange }) {
         </Link>
       </li>
     </ul>
+      <Routes>
+        <Route path='' element={<Homepage />} />
+        <Route path='aboutme' element={<Aboutme />} />
+        <Route path='contact' element={<Contact />} />
+        <Route path='projects' element={<Portfolio />} />
+        {/* <Route path='resume' element={<Resume />} /> */}
+      </Routes>
+    </BrowserRouter>
+
   );
 }
 
