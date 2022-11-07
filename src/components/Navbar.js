@@ -19,7 +19,7 @@ function Navbar({ currentPage, handlePageChange }) {
   return (
     <BrowserRouter>
 
-    <ul className="nav nav-tabs">
+    <ul className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <li className="nav-item">
         <Link
           to="resume"
