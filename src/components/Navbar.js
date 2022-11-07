@@ -4,6 +4,7 @@ import Aboutme from './Aboutme';
 import Contact from './Contact';
 import Homepage from './Homepage';
 import Portfolio from './Portfolio';
+import Resume from './Resume';
 
 // import { useState } from 'react';
 // import '../styles/Navbar.css';
@@ -66,7 +67,7 @@ function Navbar({ currentPage, handlePageChange }) {
         <Route path='aboutme' element={<Aboutme />} />
         <Route path='contact' element={<Contact />} />
         <Route path='projects' element={<Portfolio />} />
-        {/* <Route path='resume' element={<Resume />} /> */}
+        <Route path='resume' element={<Resume />} />
       </Routes>
     </BrowserRouter>
 
