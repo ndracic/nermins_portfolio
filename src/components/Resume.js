@@ -9,7 +9,7 @@ function Resume() {
             <br></br>
             <br></br>
             <h4>BackEnd</h4>
-            <span>Node.js, Database (MySQL, MySql2, Sequelieze,NoSQL(MongoDB)), Express, Bcrypt, Express-session, Express-Handlebars, Handlebars, Controllers (API Route), REACT</span>
+            <span>Node.js,<br></br> Database (MySQL, MySql2, Sequelieze, MongoDB) <br></br> Express, Bcrypt, Express-session, Express-Handlebars, Handlebars, Controllers (API Route), REACT</span>
             <br></br>
             <br></br>
             <h4>JS Framework</h4>

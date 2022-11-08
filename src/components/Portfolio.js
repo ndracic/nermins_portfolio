@@ -14,11 +14,11 @@ function Portfolio() {
         },
         {
             id: '2',
-            title: 'A quiz app',
-            github: 'https://github.com/ndracic/04-WebAPIs-Coding_Quiz',
-            live : 'https://ndracic.github.io/04-WebAPIs-Coding_Quiz/',
+            title: 'Note Taker',
+            github: 'https://github.com/ndracic/Note-Taker',
+            live : 'https://notetaker-nermin.herokuapp.com/',
             text: 'A quiz application asking you questions about coding. Good luck!',
-            image:require('../images/quiz.png')
+            image:require('../images/note.png')
 
         },
         {

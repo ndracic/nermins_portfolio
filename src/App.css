@@ -3,6 +3,8 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  width: auto;
+  height: 100%;
 }
 
 #root {
@@ -19,12 +21,12 @@ html {
   min-height: 100vh;
 }
 nav{
-  background-color: #ecebe4;
+  background-color: #eee9c66a;
 }
 
 footer {
   margin-top: auto;
-  background-color: #ecebe4;
+  background-color: #d2d2d29b;
   text-align: center;
   margin-top: auto;
   padding: 8px;
