@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nermins_portfolio/static/css/main.fc2c37ba.css",
+    "main.js": "/nermins_portfolio/static/js/main.502c4346.js",
+    "static/js/787.a2cb61a6.chunk.js": "/nermins_portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/SS.png": "/nermins_portfolio/static/media/SS.218cc2bceca60d156cb7.png",
+    "static/media/bg.jpeg": "/nermins_portfolio/static/media/bg.a61a6683df9dbff614fc.jpeg",
+    "static/media/RR.jpeg": "/nermins_portfolio/static/media/RR.876297e80fe555749e52.jpeg",
+    "static/media/me.jpeg": "/nermins_portfolio/static/media/me.a995c647f4aef7855cba.jpeg",
+    "static/media/pwa.png": "/nermins_portfolio/static/media/pwa.fd6d1fa8ad59a4ecafae.png",
+    "static/media/Resume.pdf": "/nermins_portfolio/static/media/Resume.779676fcb53ee39b1bd3.pdf",
+    "static/media/note.png": "/nermins_portfolio/static/media/note.b4d5bc39d4c948b25ac4.png",
+    "index.html": "/nermins_portfolio/index.html",
+    "main.fc2c37ba.css.map": "/nermins_portfolio/static/css/main.fc2c37ba.css.map",
+    "main.502c4346.js.map": "/nermins_portfolio/static/js/main.502c4346.js.map",
+    "787.a2cb61a6.chunk.js.map": "/nermins_portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc2c37ba.css",
+    "static/js/main.502c4346.js"
+  ]
+}
