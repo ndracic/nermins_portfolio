@@ -3,14 +3,19 @@ import MyResume from '../assets/Resume.pdf'
 
 function Resume() {
     return(
-        <div>
-            <h3>Skills</h3>
+        <div className="Resume">
             <h4>FrontEnd</h4>
             <span>HTML5, CSS3, JAVASCRIPT ES6+, API, Bootstrap, Google Fonts and jQuery</span>
+            <br></br>
+            <br></br>
             <h4>BackEnd</h4>
             <span>Node.js, Database (MySQL, MySql2, Sequelieze,NoSQL(MongoDB)), Express, Bcrypt, Express-session, Express-Handlebars, Handlebars, Controllers (API Route), REACT</span>
+            <br></br>
+            <br></br>
             <h4>JS Framework</h4>
             <span>MERN</span>
+            <br></br>
+            <br></br>
 
             <div>
                 <h3>Resume</h3>

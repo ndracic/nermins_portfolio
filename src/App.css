@@ -36,3 +36,9 @@ li{
   margin: 10px;
 }
 
+.Aboutme, .Homepage, .Resume, .contactform {
+  margin: auto;
+  width: 50%;
+
+}
+

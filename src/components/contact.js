@@ -20,6 +20,7 @@ const Contact = () => {
   }
   return (
     <div className="contactform">
+      <p>Please feel free to reach out about anything, <br></br>I'm always excited to meet new people and tackle new projects.</p>
     <form
       action={FORM_ENDPOINT}
       onSubmit={handleSubmit}

@@ -9,6 +9,8 @@ function Portfolio() {
             github: 'https://github.com/NWbootcamp/ShakenorStirred_Cocktails',
             live : 'https://nwbootcamp.github.io/ShakenorStirred_Cocktails/',
             text: 'What are you drinking tonight? The site suggests cocktails for whatever kind of evening you want to have. The site will pull random cocktails and allows the user to get a more curated choice by specifying what kind of night they want to have, or what liquor they want to use (including none!). And if the user is under 21, it offers a fun mix of non-alcoholic drinks. Drink choice includes a photo of the drink and the drinks name, ingredients, and instructions to make it.',
+            image:require('../images/SS.png')
+
         },
         {
             id: '2',
@@ -16,6 +18,8 @@ function Portfolio() {
             github: 'https://github.com/ndracic/04-WebAPIs-Coding_Quiz',
             live : 'https://ndracic.github.io/04-WebAPIs-Coding_Quiz/',
             text: 'A quiz application asking you questions about coding. Good luck!',
+            image:require('../images/quiz.png')
+
         },
         {
             id: '3',
@@ -23,6 +27,8 @@ function Portfolio() {
             github: 'https://github.com/videogame-reviewer/videogame_reviewer',
             live : 'https://remotereviewer.herokuapp.com/',
             text: 'A website that allows its users to leave reviews on the content that they please.',
+            image:require('../images/RR.jpeg')
+
         },
         {
             id: '4',
@@ -30,6 +36,8 @@ function Portfolio() {
             github: 'https://github.com/ndracic/pwa-text-editor',
             live : 'https://warm-garden-48923.herokuapp.com/',
             text: 'Your own personal terminal that you can use online and offline.',
+            image:require('../images/pwa.png')
+
         },
      ]
 
