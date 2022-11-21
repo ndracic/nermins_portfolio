@@ -21,23 +21,13 @@ function Navbar({ currentPage, handlePageChange }) {
     <nav>
     <ul className="navbar navbar-expand-lg navbar-light" id="mainNav">
       <li className="nav-item">
-      <Link
-          to=""
-          onClick={() => handlePageChange('Homepage')}
-          // This is a conditional (ternary) operator that checks to see if the current page is "Homepage"
-          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-          className={currentPage === 'Homepage' ? 'nav-link active' : 'nav-link'}
-        >
+      <Link to="">
           Homepage
         </Link>
         </li>
       <li className="nav-item">
         <Link
           to="resume"
-          onClick={() => handlePageChange('Resume')}
-          // This is a conditional (ternary) operator that checks to see if the current page is "Resume"
-          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
         >
           Resume
         </Link>
@@ -46,9 +36,6 @@ function Navbar({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <Link
           to="aboutme"
-          onClick={() => handlePageChange('Aboutme')}
-          // Check to see if the currentPage is `Aboutme`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Aboutme' ? 'nav-link active' : 'nav-link'}
         >
           Aboutme
         </Link>
@@ -56,9 +43,6 @@ function Navbar({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <Link
           to="projects"
-          onClick={() => handlePageChange('Projects')}
-          // Check to see if the currentPage is `Projects`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
         >
           Projects
         </Link>
@@ -66,15 +50,13 @@ function Navbar({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <Link
           to="contact"
-          onClick={() => handlePageChange('Contact')}
-          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact
         </Link>
       </li>
     </ul>
     </nav>
+
       <Routes>
         <Route path='' element={<Homepage />} />
         <Route path='aboutme' element={<Aboutme />} />
