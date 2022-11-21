@@ -8,7 +8,6 @@ import background from './images/bg.jpeg'
 // import Resume from './components/Resume';
 // import Contact from './components/Contact';
 
-
 function App() {
   return (
     <div className="App" style={{backgroundImage: `url(${background})`}}>
