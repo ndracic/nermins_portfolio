@@ -9,44 +9,38 @@ import Resume from './Resume';
 // import { useState } from 'react';
 // import '../styles/Navbar.css';
 
-// By importing the Navbar.css file, it is added to the DOM whenever this component loads
-
-// We can also style a component inside of its JavaScript file by adding style properties to its rendered elements
-// Unlike regular HTML, a JSX style property must be an object instead of a string
-// On a style object, we camelCase all property names, and put all of the values in quotes
-// Non quoted values default to "pixels", e.g. height, margin, padding
 function Navbar() {
   return (
     <BrowserRouter>
     <nav>
     <ul className="navbar navbar-expand-lg navbar-light" id="mainNav">
       <li className="nav-item">
-        
-      <Link to="">
+
+      <Link to="//">
           Homepage
         </Link>
         </li>
 
       <li className="nav-item">
-        <Link to="resume">
+        <Link to="/resume">
           Resume
         </Link>
       </li>
 
       <li className="nav-item">
-        <Link to="aboutme">
+        <Link to="/aboutme">
           Aboutme
         </Link>
       </li>
 
       <li className="nav-item">
-        <Link to="projects">
+        <Link to="/projects">
           Projects
         </Link>
       </li>
 
       <li className="nav-item">
-        <Link to="contact">
+        <Link to="/contact">
           Contact
         </Link>
       </li>
