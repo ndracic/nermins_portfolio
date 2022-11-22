@@ -14,12 +14,6 @@ function Navbar() {
     <BrowserRouter>
     <nav>
     <ul className="navbar navbar-expand-lg navbar-light" id="mainNav">
-      <li className="nav-item">
-
-      <Link to="//">
-          Homepage
-        </Link>
-        </li>
 
       <li className="nav-item">
         <Link to="/resume">
@@ -48,7 +42,6 @@ function Navbar() {
     </nav>
 
       <Routes>
-        <Route path='' element={<Homepage />} />
         <Route path='aboutme' element={<Aboutme />} />
         <Route path='contact' element={<Contact />} />
         <Route path='projects' element={<Portfolio />} />

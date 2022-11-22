@@ -18,8 +18,13 @@ export default function Aboutme() {
             </div>
           </div>
 
-      ))}        
-      <p className="about">
+        ))}        
+        <div>
+          <h1>Nermin Dracic</h1>
+          <h5>Full Stack Developer</h5>
+          <h5>Chicago Native</h5>
+        </div>
+        <p className="about">
             Hello, my name is Nermin, and I love developing ideas for the web. I began my career as a developer when I was a teenager. I discovered the passion for coding over the years, I've honed my coding skills receiving a Full Stack Development certification from NorthWestern University, leading me to create apps that I actually use.
             <br></br>
             Recently, I've discovered my passion for web development and the joy of creating useful websites like the ones in this portfolio. I'm now seeking for a junior development role to kickstart my career and learn with professionals.
